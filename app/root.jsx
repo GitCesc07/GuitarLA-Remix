@@ -14,7 +14,7 @@ import Header from "~/components/header";
 import Footer from "~/components/footer";
 import Swal from "sweetalert2";
 
-export function meta() {
+export const meta = () => {
   return [
     { charset: "UTF-8" },
     { title: "GuitarLA - Remix" },
